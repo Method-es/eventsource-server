@@ -1,0 +1,5 @@
+{
+    "require": {
+        "igorw/event-source": "^1.0"
+    }
+}

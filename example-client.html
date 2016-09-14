@@ -1,0 +1,7 @@
+<script>
+var stream = new EventSource('example.php');
+
+stream.addEventListener('message', function (event) {
+    console.log(event.data);
+});
+</script>
